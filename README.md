@@ -4,5 +4,4 @@
 <h3 align="center">Qr Code Generator with Url or custom text </h3>
 
 
-
-![img](https://raw.githubusercontent.com/RafaelParoni/QrCustom/main/QrCustom.png?token=GHSAT0AAAAAACFUESOMWXVTHYJT3IB34RK4ZL4VAZA)
+<img align='center' src='https://raw.githubusercontent.com/RafaelParoni/QrCustom/main/QrCustom.png?token=GHSAT0AAAAAACFUESOMWXVTHYJT3IB34RK4ZL4VAZA' />
