@@ -1,0 +1,64 @@
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App main {
+  background-color: #6F8ABE;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.App img {
+  width: 100%;
+}
+
+
+.input-generetor {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+.input-generetor button {
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  background-color: #212A4A;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.input-generetor button:hover{
+  transform: scale(1.05);
+}
+
+.input-generetor input {
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+.download-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #212A4A;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.download-btn:hover{
+  transform: scale(1.1);
+}
+.App span {
+  color: #fff;
+  text-align: center;
+  margin-left: 15px;
+}

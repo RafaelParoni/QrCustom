@@ -1,0 +1,1 @@
+<h1 alien='center'> site for Qr Generetor </h1>
