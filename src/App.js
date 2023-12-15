@@ -1,8 +1,8 @@
-import './App.css';
+import './App.css'; // import css
 
-import GeneretorMain from './components/Generetor';
+import GeneretorMain from './components/Generetor'; // import componente 'gerador de QrCode - line 12  
 
-import { LuQrCode } from "react-icons/lu";
+import { LuQrCode } from "react-icons/lu"; // import Icon QrCode  - line 11
 
 function App() {
   return (

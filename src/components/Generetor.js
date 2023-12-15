@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import './../App.css';
+import { useState } from 'react'; // import use state - line 10,11
+import './../App.css'; // import css
 
-import QRCode from 'qrcode'
+import QRCode from 'qrcode' // import Biblioteca qrcode - line 28-40
 
-import { BiSolidDownload } from "react-icons/bi";
+import { BiSolidDownload } from "react-icons/bi"; // import Download Icon - line 55
 
 function GeneretorMain() {
 
