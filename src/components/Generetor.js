@@ -9,6 +9,7 @@ function GeneretorMain() {
 
     const [QrCode, setQrCode] = useState('')
     const [QrCodeText, setQrCodeText] = useState('')
+    var QrCodeName= ''
 
     async function generetorQrCode(){
         if(QrCodeText === '' || QrCodeText === undefined){
@@ -24,7 +25,7 @@ function GeneretorMain() {
     }
 
     function downloadQrCode(){
-        if(QrCodeText.includes('https://')){
+        if(QrCodeText.includes('.')){
           var newText = QrCodeText
           var i = 0
           var CaracterChato = 1
@@ -35,7 +36,7 @@ function GeneretorMain() {
               i++
             }
           }
-          setQrCodeText(newText)
+          QrCodeName = 'QRCustom-' +  newText
         }
         
         fetch(QrCode, {
@@ -45,7 +46,7 @@ function GeneretorMain() {
             .then(blob => {
             let blobUrl = window.URL.createObjectURL(blob);
             let a = document.createElement('a');
-            a.download = 'QRCustom: ' + QrCodeText;
+            a.download = QrCodeName;
             a.href = blobUrl;
             document.body.appendChild(a);
             a.click();
