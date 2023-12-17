@@ -24,6 +24,19 @@ function GeneretorMain() {
     }
 
     function downloadQrCode(){
+        if(QrCodeText.includes('https://')){
+          var newText = QrCodeText
+          var i = 0
+          var CaracterChato = 1
+          while(i < CaracterChato){
+            if(newText.includes('.')){
+              newText = newText.replace('.', "_")
+            }else{
+              i++
+            }
+          }
+          setQrCodeText(newText)
+        }
         
         fetch(QrCode, {
             mode : 'no-cors',
