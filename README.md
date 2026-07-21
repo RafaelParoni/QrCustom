@@ -1,7 +1,16 @@
-<h1 align="center">site for Qr Generetor </h1>
+# React + Vite
 
-<h3 align="center">Gerador de Qr Code com Url ou texto personalizado </h3>
-<h3 align="center">Qr Code Generator with Url or custom text </h3>
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
+Currently, two official plugins are available:
 
-<img align='center' src='https://raw.githubusercontent.com/RafaelParoni/QrCustom/main/QrCustom.png?token=GHSAT0AAAAAACFUESOMWXVTHYJT3IB34RK4ZL4VAZA' />
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
